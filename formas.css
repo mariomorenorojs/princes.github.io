@@ -1,0 +1,44 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+  }
+  
+  body{
+    background-color: #ffffff;
+  }
+  
+  /* Estilos principales para el reloj */
+  .reloj{
+    width: 400px;
+    background: linear-gradient(to right, #240b36, #c31432);
+    color: #ffffff;
+    text-align: center;
+    padding: 30px;
+    margin: 20px auto;
+    border-radius: 10px;
+    border-bottom: 10px solid #190329;
+    user-select: none;
+  }
+  
+  .reloj .dia{
+    font-size: 20px;
+  }
+  
+  .reloj .mes{
+    font-size: 40px;
+  }
+  
+  .reloj .hora{
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+  }
+  
+  .reloj .hora p{
+    font-size: 50px;
+    background-color: #240b36;
+    padding: 10px;
+    margin: 0px 5px;
+    border: 1px solid #ffffff;
+  }
