@@ -1,0 +1,66 @@
+/* Estilos generales */
+body {
+    background-color: purple; /* Fondo de color morado */
+    font-family: Arial, sans-serif; /* Familia de fuentes */
+    color: white; /* Color de texto blanco */
+    margin: 0; /* Elimina el margen predeterminado */
+    padding: 0; /* Elimina el relleno predeterminado */
+}
+
+/* Estilos para la sección de imágenes */
+#imagenes {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 20px;
+}
+
+.imagen {
+    width: 200px;
+    height: 200px;
+    border-radius: 10px;
+    overflow: hidden;
+    margin-bottom: 20px;
+}
+
+/* Estilos para el video */
+#video {
+    margin-top: 200px;
+}
+
+/* Estilos para el texto */
+#texto {
+    text-align: center;
+    margin-top: 20px;
+    font-size: 24px;
+}
+#imagenes {
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start; /* Alinea las imágenes en la parte superior */
+    padding: 20px;
+}
+
+.imagen {
+    width: 200px; /* Ancho deseado para todas las imágenes */
+    height: 200px; /* Altura deseada para todas las imágenes */
+    border-radius: 10px; /* Borde redondeado */
+    overflow: hidden; /* Evitar que las imágenes se desborden del contenedor */
+}
+#imagenes {
+    display: flex;
+    justify-content: space-around; /* Alinea las imágenes horizontalmente */
+    align-items: flex-start; /* Alinea las imágenes en la parte superior */
+    flex-wrap: nowrap; /* Evita que las imágenes se envuelvan en múltiples líneas */
+    padding: 20px;
+}
+#imagenes {
+    display: flex;
+    justify-content: flex-start; /* Alinea las imágenes en la parte superior */
+}
+
+.imagen {
+    width: 50px; /* Ancho deseado para todas las imágenes */
+    height: auto; /* Altura automática para mantener la proporción */
+    margin-right: 10px; /* Espacio entre las imágenes */
+}
